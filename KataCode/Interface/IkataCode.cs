@@ -10,6 +10,6 @@ namespace KataCode.Interface
     {
         String compute(String number);
         int position(String number );
-        //int compteur(String number);
+        
     }
 }

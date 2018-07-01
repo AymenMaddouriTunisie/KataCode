@@ -37,12 +37,12 @@ namespace KataCode.ImplClass
            
             int x=0;
             x = int.Parse(number);
-             //here 
+             
              if (x % 3 == 0 && x % 5 == 0 && x % 7 == 0)
             {
 
                 {
-                    //int compteurreception;
+                    
                     String affich = string.Empty;
                     String affichOccurrence = string.Empty;
                     String affichOccurrenceZero = string.Empty;
@@ -53,7 +53,7 @@ namespace KataCode.ImplClass
 
                     for (int i = 0; i < number.Length; i++)
                     {
-                        //compteurreception = compteur(number);
+                        
 
                         if (position(number) != -1)
                         {
@@ -83,7 +83,6 @@ namespace KataCode.ImplClass
                     affich = "\n" + "le resultat est : " + number + "  ==> " + "FooBarQix" + remplirChaine;
                     return affich;
                 }
-                //here2
                 
 
 
@@ -91,7 +90,7 @@ namespace KataCode.ImplClass
              else if(x%3==0&&x%5==0)
              {
                  {
-                     //int compteurreception;
+                     
                      String affich = string.Empty;
                      String affichOccurrence = string.Empty;
                      String affichOccurrenceZero = string.Empty;
@@ -102,7 +101,7 @@ namespace KataCode.ImplClass
 
                      for (int i = 0; i < number.Length; i++)
                      {
-                         //compteurreception = compteur(number);
+                         
 
                          if (position(number) != -1)
                          {
@@ -139,7 +138,7 @@ namespace KataCode.ImplClass
              else if (x % 3 == 0 && x % 7 == 0)
              {
                  {
-                     //int compteurreception;
+                     
                      String affich = string.Empty;
                      String affichOccurrence = string.Empty;
                      String affichOccurrenceZero = string.Empty;
@@ -150,7 +149,7 @@ namespace KataCode.ImplClass
 
                      for (int i = 0; i < number.Length; i++)
                      {
-                         //compteurreception = compteur(number);
+                         
 
                          if (position(number) != -1)
                          {
@@ -187,7 +186,7 @@ namespace KataCode.ImplClass
              else if (x % 5 == 0 && x % 7 == 0)
              {
                  {
-                     //int compteurreception;
+                     
                      String affich = string.Empty;
                      String affichOccurrence = string.Empty;
                      String affichOccurrenceZero = string.Empty;
@@ -198,7 +197,7 @@ namespace KataCode.ImplClass
 
                      for (int i = 0; i < number.Length; i++)
                      {
-                         //compteurreception = compteur(number);
+                         
 
                          if (position(number) != -1)
                          {
@@ -238,7 +237,7 @@ namespace KataCode.ImplClass
             {
                 if (countNumberTrois != 0)
                 {
-                    //int compteurreception;
+                    
                     String affich = string.Empty;
                     String affichOccurrence = string.Empty;
                     String affichOccurrenceZero = string.Empty;
@@ -249,7 +248,7 @@ namespace KataCode.ImplClass
 
                     for (int i = 0; i < countNumberTrois; i++)
                     {
-                        //compteurreception = compteur(number);
+                        
                        
                             if (position(number) != -1)
                             {
@@ -282,7 +281,7 @@ namespace KataCode.ImplClass
                 else
                 {
 
-                    //int compteurreception;
+                    
                     String affich = string.Empty;
                     String affichOccurrenceZero = string.Empty;
                     String remplirChaine = string.Empty;
@@ -293,7 +292,7 @@ namespace KataCode.ImplClass
 
                     for (int i = 0; i < number.Length; i++)
                     {
-                        //compteurreception = compteur(number);
+                        
 
                         if (position(number) != -1)
                         {
@@ -331,7 +330,7 @@ namespace KataCode.ImplClass
             {
                 if (countNumberCinq != 0)
                 {
-                    //int compteurreception;
+                    
                     String affich = string.Empty;
                     String affichOccurrence = string.Empty;
                     String affichOccurrenceZero = string.Empty;
@@ -342,7 +341,7 @@ namespace KataCode.ImplClass
 
                     for (int i = 0; i < countNumberCinq; i++)
                     {
-                        //compteurreception = compteur(number);
+                        
 
                         if (position(number) != -1)
                         {
@@ -376,7 +375,7 @@ namespace KataCode.ImplClass
                 else
                 {
 
-                    //int compteurreception;
+                    
                     String affich = string.Empty;
                     String affichOccurrenceZero = string.Empty;
                     String remplirChaine = string.Empty;
@@ -387,7 +386,7 @@ namespace KataCode.ImplClass
 
                     for (int i = 0; i < number.Length; i++)
                     {
-                        //compteurreception = compteur(number);
+                        
 
                         if (position(number) != -1)
                         {
@@ -426,7 +425,7 @@ namespace KataCode.ImplClass
             {
                 if (countNumberSept != 0)
                 {
-                    //int compteurreception;
+                    
                     String affich = string.Empty;
                     String affichOccurrence = string.Empty;
                     String affichOccurrenceZero = string.Empty;
@@ -438,7 +437,7 @@ namespace KataCode.ImplClass
 
                     for (int i = 0; i < countNumberSept; i++)
                     {
-                        //compteurreception = compteur(number);
+                        
 
                         if (position(number) != -1)
                         {
@@ -471,7 +470,7 @@ namespace KataCode.ImplClass
                 else
                 {
 
-                    //int compteurreception;
+                   
                     String affich = string.Empty;
                     String affichOccurrenceZero = string.Empty;
                     String remplirChaine = string.Empty;
@@ -482,7 +481,7 @@ namespace KataCode.ImplClass
 
                     for (int i = 0; i < number.Length; i++)
                     {
-                        //compteurreception = compteur(number);
+                        
 
                         if (position(number) != -1)
                         {
@@ -585,19 +584,7 @@ namespace KataCode.ImplClass
             }
             return pos;
         }
-        //public int compteur(String number)
-        //{
-        //    int compteur = 0;
-        //    for (int i = 0; i < number.Length; i++)
-        //    {
-        //        if (Convert.ToInt32(number[i].ToString()) == 0)
-        //        {
-        //            compteur++;
-
-        //        }
-        //    }
-        //    return compteur;
-        //}
+        
 
     }
 }
