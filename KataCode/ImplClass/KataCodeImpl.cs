@@ -553,7 +553,7 @@ namespace KataCode.ImplClass
                 else if(number.Contains("0"))
                 {
                     
-                 return number + " => " + number.Replace("0", "*");
+                 return number + " ==> " + number.Replace("0", "*");
 
                 }
                     
