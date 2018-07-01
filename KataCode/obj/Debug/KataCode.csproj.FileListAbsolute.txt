@@ -1,0 +1,6 @@
+D:\Users\g557958\documents\visual studio 2013\Projects\KataCode\KataCode\bin\Debug\KataCode.exe.config
+D:\Users\g557958\documents\visual studio 2013\Projects\KataCode\KataCode\bin\Debug\KataCode.exe
+D:\Users\g557958\documents\visual studio 2013\Projects\KataCode\KataCode\bin\Debug\KataCode.pdb
+D:\Users\g557958\documents\visual studio 2013\Projects\KataCode\KataCode\obj\Debug\KataCode.exe
+D:\Users\g557958\documents\visual studio 2013\Projects\KataCode\KataCode\obj\Debug\KataCode.pdb
+D:\Users\g557958\documents\visual studio 2013\Projects\KataCode\KataCode\obj\Debug\KataCode.csprojResolveAssemblyReference.cache
